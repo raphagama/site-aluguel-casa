@@ -1,0 +1,53 @@
+body{
+	font-family:Arial,Times New Roman, Sans-Serif;
+	margin:0px;
+	font-size:14px;
+	background-color:blue;
+}
+	
+.logo{
+	text-align:center;
+	padding:20px;
+}
+
+.chamada{
+	background-color:yellow;
+	text-align:center;
+	padding:30px 0px;
+}
+
+.chamada h1{
+	color: red;
+	font-size:30px;
+	margin:0px;
+}
+
+.imoveis{
+	text-align: center;
+	padding:36px 0px;
+	
+}
+
+.imoveis h3{
+	color:blue;
+}
+
+.imoveis a{
+	padding:10px 15px;
+	background-color:orange;
+	color: blue;
+	text-decoration:none;
+}
+.menu ul{
+	list-style:none;
+	text-transform:uppercase;
+	position:absolute
+	top:-30px
+	right:50pxaaa
+}
+.menu li {
+	display:inline-block;
+	background-color:#dddddd
+	padding:10px
+	margin:20px
+}
