@@ -1,23 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 body{
-	font-family:Arial,Times New Roman, Sans-Serif;
+	font-family: "Roboto", Arial,Times New Roman, Sans-Serif;
 	margin:0px;
 	font-size:14px;
-	background-color:blue;
+	background: rgb(2,0,36);
+	background-repeat: no-repeat;
+	background: linear-gradient(137deg, rgba(2,0,36,1) 0%, rgba(0,67,84,1) 80%, rgba(70,109,119,1) 100%);
 }
-	
+
+header{
+	display: flex;
+	align-content: space-between;
+	justify-content: space-between;
+}
+
 .logo{
-	text-align:center;
-	padding:20px;
+	width: 100px;
+	height: 100px;
+	margin-left: 30px;
+
+}
+
+.menu ul{
+	display: flex;
+}
+
+.menu li{
+	display:inline-block;
+	padding: 20px; 
+	margin: 10px;
+	transition: 0.5s;
+	border-radius: 10%;
+}
+
+.menu li:hover{
+	background-color: #eee;
+}
+
+.menu li a{
+	text-decoration: none;
+	color: #53F048;
 }
 
 .chamada{
-	background-color:yellow;
+	background-color:#FDD02E;
 	text-align:center;
 	padding:30px 0px;
 }
 
 .chamada h1{
-	color: red;
+	color: black;
 	font-size:30px;
 	margin:0px;
 }
@@ -37,17 +70,4 @@ body{
 	background-color:orange;
 	color: blue;
 	text-decoration:none;
-}
-.menu ul{
-	list-style:none;
-	text-transform:uppercase;
-	position:absolute
-	top:-30px
-	right:50pxaaa
-}
-.menu li {
-	display:inline-block;
-	background-color:#dddddd
-	padding:10px
-	margin:20px
 }
