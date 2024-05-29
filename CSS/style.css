@@ -44,13 +44,13 @@ header{
 	color: #53F048;
 }
 
-.chamada{
+.call{
 	background-color:#FDD02E;
 	text-align:center;
-	padding:30px 0px;
+	padding: 30px;
 }
 
-.chamada h1{
+.call h1{
 	color: black;
 	font-size:30px;
 	margin:0px;
@@ -71,4 +71,14 @@ main a{
 	background-color:orange;
 	color: blue;
 	text-decoration:none;
+}
+
+.houses {
+	margin: 30px;
+
+}
+
+footer{
+	justify-content: center;
+	text-align: center;
 }
